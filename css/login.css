@@ -1,0 +1,25 @@
+/* Mengatur latar belakang hitam untuk form login */
+section {
+    background-color: #755f3e;
+}
+
+/* Mengatur warna teks */
+.text-black {
+    color: #fff;
+}
+
+/* Mengatur warna teks untuk link */
+.text-muted, .link-info {
+    color: #fff;
+}
+
+/* Mengatur warna teks untuk input field */
+.form-label, .form-control {
+    color: #fff;
+}
+
+/* Mengatur latar belakang tombol login */
+.btn-info {
+    background-color: #709085;
+    border-color: #709085;
+}

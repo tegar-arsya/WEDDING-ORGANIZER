@@ -1,0 +1,106 @@
+body{
+  background-color: #fffbe7;
+}
+section.home .card {
+    top: 150px;
+    border: 2px solid #E6C49F;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease-in-out;
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  section.home .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #000;
+  }
+  
+  section.home .card hr {
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  section.home .card a.card-link {
+    border: 2px solid #333;
+    background: #333;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  section.home .card a.card-link:hover {
+    background: #E6C49F;
+    color: #333;
+  }
+  
+  section.home .card a.card-link:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 100%;
+    background:#000000;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  section.home .card a.card-link:hover:before {
+    width: 100%;
+  }
+  
+  section.home .card a.card-link:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  section.home .card a.card-link:hover:after {
+    width: 100%;
+  }
+  .card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .card-text {
+    color: #000000;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    margin-top: 10px; /* Adds some space between the card text and buttons */
+  }
+  
+  .button-container button {
+    background-color: #d6d2bf;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    box-shadow: #000;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
